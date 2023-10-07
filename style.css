@@ -39,9 +39,7 @@ header{
   
 }
 
-.navigation li a:hover,
-.navigation li a.active
-{
+.navigation li a:hover{
   background: #ece7d5;
   color: #000;
 }
