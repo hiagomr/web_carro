@@ -1,5 +1,5 @@
 # Catálogos de Carros
-Bem-vindo ao Catálogos de Carros, um site dedicado a fornecer informações detalhadas sobre uma ampla variedade de carros, suas peças, anos de fabricação e muito mais. Este README fornece uma visão geral do projeto e como você pode começar a usá-lo.
+Bem-vindo ao Catálogos de Carros, um site dedicado a fornecer informações detalhadas sobre uma ampla variedade de carros, suas peças, anos de fabricação e muito mais. Este README fornece uma visão geral do projeto.
 
 ## Visão Geral
 O Catálogos de Carros é uma plataforma online que visa ajudar entusiastas de carros, mecânicos, compradores e proprietários a acessar informações abrangentes sobre carros de todas as marcas e modelos. Aqui estão alguns dos principais recursos:
