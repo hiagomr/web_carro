@@ -1,0 +1,249 @@
+@import url(' https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header{
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  z-index: 1000;
+  background: linear-gradient(#9b9376, #cfc8b0);
+}
+body{
+  margin: 0;
+  padding: 0;
+  color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9b9376;
+  background: linear-gradient(#cfc8b0, #9b9376);
+}
+main {
+  background-color: #fff;
+}
+select {
+  float: right;
+  margin-left: 10px;
+  margin-right: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #dee1e4;
+}
+
+input {
+  float: right;
+  margin-right: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #dee1e4;
+}
+label {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navigation li{
+  list-style: none;
+}
+
+.navigation li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ece7d5;
+  border-radius: 20px;
+  background: #00000075;
+  
+}
+
+.navigation li a:hover{
+  background: #ece7d5;
+  color: #000;
+}
+
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+}
+-----------------------------------------------------------------
+#grid{
+  display: grid;
+  width: 100%;
+  height: 250px;
+  grid-template-areas:
+    "head head head"
+    "nav  main main"
+    "foot  foot foot";
+  grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+
+#grid > header {
+  grid-area: head;
+}
+
+#grid > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+#grid > main {
+  grid-area: main;
+  background-color: #dbdbd4;
+}
+
+#grid > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
+-----------------------------------------------------------------
+
+.filter {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 20px;
+
+}
+
+.form-group {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: 'Libre Baskerville', serif;
+  border: none;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #ece7d5;
+  outline: none;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+.button {
+  background-color: #00000075;
+  border: none;
+  color: #ece7d5;
+  font-size: 16px;
+  padding: 3px 13px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #ece7d5;
+  color: #000;
+  margin-left: 10px;
+}
+-----------------------------------------------------------------
+
+.carros {
+  display: flex;
+  flex-direction: column;
+}
+
+.carros-grid {
+  margin: 20px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+.carro-card {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.carro-card img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+.carro-card:hover img {
+  transform: scale(1.1);
+}
+
+  .carro-card {
+    width: 100%;
+    height: 100%; 
+  }
+}
+@media (max-width: 768px) {
+  .carros-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .carro-card {
+    width: 100%; 
+  }
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+
+  header{
+    top: 0;
+    left: 0;
+    width: 100px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carros-grid {
+    grid-template-columns: 1fr;
+  }
+}

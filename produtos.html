@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="produtos.css">
+  <link rel="short icon" type="imagex/png" href="./assets/fuscanavegador.png">
+  <title>Só Carrão</title>
+</head>
+<body id="grid">
+  <header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="./produtos.html">Produtos</a></li>
+        <li><a href="#">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main">  
+    <section>
+      <div class="centralizar">
+        <form action="index.php" method="post">
+          <div class="filter">
+            <div class="form-group">
+              <label for="ano">Ano</label>
+              <input type="number" name="ano" id="ano" min="1973" max="2023">
+            </div>
+            <div class="form-group">
+              <label for="modelo">Modelo</label>
+              <select name="modelo" id="modelo">
+                <option value="Chevette">Chevette</option>
+                <option value="Fusca">Fusca</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cor">Cor</label>
+              <select name="cor" id="cor">
+                <option value="Vermelho">Vermelho</option>
+                <option value="Azul">Azul</option>
+                <option value="Preto">Preto</option>
+                <option value="Branco">Branco</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome">
+            </div>
+            <button class="button" type="submit">Filtrar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="carros">
+      <div class="carros-grid">
+        <div class="carro-card">
+          <a href="#"><img src="./assets/fusca1.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/fusca2.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/Chevette-1.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/fusca4.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/chevette-3.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/fusca_tun2.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/chevette-2.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/chevette_tun1.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/chevette-4.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/fusca3.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/fusca_tun1.jpg" alt="Carro 2"></a>
+        </div>
+        <div class="carro-card">
+          <a href="#"><img src="./assets/chevette_tun2.jpg" alt="Carro 2"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>footer</footer>
+</body>
+<main></main>
+</html>
