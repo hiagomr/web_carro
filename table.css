@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(88, 88, 88);
+}
+
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(167, 167, 167);
+  }
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+table{
+    width: 100%;
+}
+td, th{
+    border: 1px solid rgb(88, 82, 82);
+    padding: 10px;
+    text-align: center;
+}
+
+td{
+    color: #fff;
+}
+
+.modelos{
+    font-size: larger;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+}
