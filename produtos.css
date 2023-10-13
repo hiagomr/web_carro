@@ -14,6 +14,9 @@ header {
   z-index: 1000;
   box-sizing: border-box;
 }
+main {
+  flex-grow: 1;
+}
 
 body {
   margin: 0;
@@ -214,11 +217,17 @@ footer {
   width: 100vw;
   display: flex;
   justify-content: flex-start;
+  bottom: 0;
 }
 
 .footer a {
   text-decoration: none;
   color: #fff;
+}
+
+footer ul {
+  padding-left: 20px;
+  list-style: none;
 }
 
 /*--------- Responsividade ----------*/
