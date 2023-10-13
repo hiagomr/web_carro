@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="produtos.css">
   <link rel="short icon" type="imagex/png" href="./assets/fuscanavegador.png">
-  <title>Só Carrão</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <title>Produtos</title>
 </head>
-<body id="grid">
+
+<body class="gradient">
   <header>
     <nav>
       <ul class="navigation">
@@ -18,82 +25,96 @@
       </ul>
     </nav>
   </header>
-  <main">  
-    <section>
-      <div class="centralizar">
-        <form action="index.php" method="post">
-          <div class="filter">
-            <div class="form-group">
-              <label for="ano">Ano</label>
-              <input type="number" name="ano" id="ano" min="1973" max="2023">
-            </div>
-            <div class="form-group">
-              <label for="modelo">Modelo</label>
-              <select name="modelo" id="modelo">
-                <option value="Chevette">Chevette</option>
-                <option value="Fusca">Fusca</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="cor">Cor</label>
-              <select name="cor" id="cor">
-                <option value="Vermelho">Vermelho</option>
-                <option value="Azul">Azul</option>
-                <option value="Preto">Preto</option>
-                <option value="Branco">Branco</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="nome">Nome</label>
-              <input type="text" name="nome" id="nome">
-            </div>
-            <button class="button" type="submit">Filtrar</button>
+  <main>
+    <section class="gal_img">
+      <img src="./assets/1c.png" alt="">
+      <img src="./assets/1f.png" alt="">
+      <img src="./assets/2c_1.png" alt="">
+      <img src="assets/2f_1.png" alt="">
+      <img src="./assets/3f.png" alt="">
+      <img src="./assets/c3.png" alt="">
+      <img src="./assets/r1.jpg" alt="">
+      <img src="./assets/4f.png" alt="">
+      <img src="./assets/c4.png" alt="">
+      <img src="./assets/r2.jpg" alt="">
+    </section>
+
+    <section class="container">
+      <div class="card-container">
+        <div class="card">
+          <img src="./assets/volanteF1.png" alt="Volante Fusca">
+          <div class="card-overlay">
+            <button class="Comprar-botao">Comprar</button>
+            <p class="info-text">Clique para comprar</p>
           </div>
-        </form>
+        </div>
+        <div class="card">
+          <img src="./assets/volanteF2.jpg" alt="Volante Fusca">
+          <div class="card-overlay">
+            <button class="Comprar-botao">Comprar</button>
+            <p class="info-text">Clique para comprar</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/volante2.png" alt="Volante Chevette">
+          <div class="card-overlay">
+            <button class="Comprar-botao">Comprar</button>
+            <p class="info-text">Clique para comprar</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/banco.png" alt="Banco Chevette">
+          <div class="card-overlay">
+            <button class="Comprar-botao">Comprar</button>
+            <p class="info-text">Clique para comprar</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/banco2.png" alt="Banco Chevette">
+          <div class="card-overlay">
+            <button class="Comprar-botao">Comprar</button>
+            <p class="info-text">Clique para comprar</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/bancoF.png" alt="Banco Fusca">
+          <div class="card-overlay">
+            <button class="Comprar-botao">Comprar</button>
+            <p class="info-text">Clique para comprar</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/escapamento.png" alt="Escapamento Chevette">
+          <div class="card-overlay">
+            <button class="Comprar-botao">Comprar</button>
+            <p class="info-text">Clique para comprar</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/volante1.png" alt="Volante Chevette">
+          <div class="card-overlay">
+            <button class="Comprar-botao">Comprar</button>
+            <p class="info-text">Clique para comprar</p>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="carros">
-      <div class="carros-grid">
-        <div class="carro-card">
-          <a href="#"><img src="./assets/fusca1.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/fusca2.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/Chevette-1.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/fusca4.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/chevette-3.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/fusca_tun2.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/chevette-2.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/chevette_tun1.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/chevette-4.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/fusca3.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/fusca_tun1.jpg" alt="Carro 2"></a>
-        </div>
-        <div class="carro-card">
-          <a href="#"><img src="./assets/chevette_tun2.jpg" alt="Carro 2"></a>
-        </div>
-      </div>
-    </section>
+
+
   </main>
-  <footer>footer</footer>
+  <footer class="footer">
+    <div>
+      <div>
+        <ul>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+          <br>
+          <p>Copyright © 2023, Todos os direitos reservados.</p>
+      </div>
+  </footer>
+
 </body>
 <main></main>
+
 </html>
