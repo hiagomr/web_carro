@@ -70,13 +70,23 @@ a:hover{
   display: none;
 }
 
-@media(max-width: 952px){
+@media(max-width: 1039px){
   label.logo{
     font-size: 30px;
     padding-left: 50px;
   }
   nav ul li a{
     font-size: 16px;
+  }
+}
+@media(max-width: 940px){
+  nav ul li a{
+    font-size: 14px;
+  }
+}
+@media(max-width: 889px){
+  nav ul li a{
+    font-size: 12px;
   }
 }
 
