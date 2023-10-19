@@ -111,6 +111,10 @@ a:hover{
   }
 }
 
+.fuque{
+  margin-top: 100px;
+}
+
 body{
   background-color: #4d4a42;
 }
@@ -149,12 +153,4 @@ td{
     font-size: larger;
     background-color: #9c998e;
     color: #000000;
-}
-
-section{
-  margin-top: 100px;
-}
-
-hr{
-  margin-top: 100px;
 }
